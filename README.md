@@ -1,5 +1,3 @@
-Here's a `README.md` template for your project, leaving space for the specific metrics and curves you mentioned (Confusion Matrix, F1 Curve, etc.). You can fill in the placeholders once you have the results.
-
 ```markdown
 # YOLOv10 Custom Object Detection
 
@@ -123,33 +121,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The dataset used in this project is customized for object detection tasks.
 
 ---
-
-### Note:
-- Don't forget to replace placeholders like `path/to/your_model` and `path/to/your_image` with actual paths on your local machine.
-- The evaluation metrics (Confusion Matrix, Precision-Recall Curves, etc.) will be generated after the training process and can be found in the logs or output directory.
-```
-
-### How to Update the ReadMe:
-
-1. **Confusion Matrix**:  
-   You can generate and insert the confusion matrix from your model's evaluation.
-
-2. **F1 Curve**:  
-   After calculating the F1 scores, plot the curve and insert the image of the plot.
-
-3. **Labels**:  
-   If you have specific class labels for your dataset, insert those here.
-
-4. **Precision-Recall Curve (P Curve)**:  
-   Plot the precision-recall curve and update the file with the results.
-
-5. **PR Curve**:  
-   Plot the precision-recall curve and insert it similarly.
-
-6. **Recall Curve (R Curve)**:  
-   Plot the recall curve and insert it as well.
-
-7. **Results**:  
-   After completing training and predictions, summarize the overall performance metrics (accuracy, precision, recall, F1-score, etc.) for the final results.
-
-This structure should give you a good starting point, and you can fill in the placeholders once you have the metrics and results from training and evaluation!
