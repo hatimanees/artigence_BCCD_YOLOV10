@@ -1,0 +1,7 @@
+# BCCD.yaml
+
+train: BCCD.v3-raw.yolov11/train/images
+test: BCCD.v3-raw.yolov11/test/images
+val: BCCD.v3-raw.yolov11/valid/images
+nc: 3  # Number of classes for BCCD
+names: ['RBC', 'WBC', 'Platelets']
